@@ -3,9 +3,9 @@ class Gitup < Formula
   homepage "https://github.com/kdisneur/gitup"
   version  "v0.1.0"
   url      "https://github.com/kdisneur/gitup/releases/download/v0.1.0/gitup-darwin-386"
-  sha256   "24342d16885b43f9d4432bd39ea26acd3d6459e0a9d6b487d794b1aa6e389c82"
+  sha256   "3e5f06ff9b25099628e443ea7defcef550e4765b5eac4ffb59e7a88b8533e69b"
 
   def install
-    prefix.install "gitup"
+    bin.install "gitup"
   end
 end
